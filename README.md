@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/736387/148641011-2fd2f3fb-b268-4461-ba
 
 
 ## How to Use
-Add CameraControl.pde to your scketch, then write like this.
+Add CameraControl.pde to your scketch, then write your code like this.
 
 ```scala
 CameraControl control; // write this
@@ -25,5 +25,5 @@ void draw() {
 }
 ```
 
-It is not necessary to write something for camera control in the draw(), because the key control event is done automatically. 
+It is not necessary to write anything for camera control in the draw(), because the key control event is done automatically. 
 If you don't like this specification, please comment out line 24 in Camera Control.pde, and call keyControl() method directly in the draw() .
